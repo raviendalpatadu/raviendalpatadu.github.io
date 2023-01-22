@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.is-nunito {
+  font-family: "Nunito";
+}
+.is-playfair-display {
+  font-family: "PlayFair Display";
+}
+
+.is-roboto {
+  font-family: "Roboto";
+}
+
+.circle {
+  background-color: #3579fd;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-radius: 100%;
+  position: absolute;
+  width: 820px;
+  height: 820px;
+  right: -143px;
+  top: -193.59px;
+}
+
+.circle-about {
+  background-color: #3579fd;
+  overflow: hidden;
+  border-radius: 100%;
+  width: 450px;
+  height: 450px;
+}
+
+nav {
+  background-color: transparent !important;
+  font-size: 1.2rem !important;
+}
+
+.nav-white-shadow a {
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem !important;
+  position: relative;
+}
+@keyframes moveDown {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 5px;
+  }
+}
+.nav-white-shadow a:hover {
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+  background-color: transparent;
+  position: relative;
+  animation: moveDown 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.textcolor-brand {
+  color: #3579fd;
+}
+
+.bgcolor-brand-edu {
+  background-color: #3578fda0;
+}
+
+.bgcolor-brand {
+  background-color: #3579fd;
+}
+
+.hero-text-margin-y {
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+
+.hero-img {
+  position: sticky;
+  top: 32%;
+  left: 13%;
+  height: 70%;
+}
+
+.round {
+  width: 95%;
+  padding-top: 14%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 100%;
+  height: 133%;
+  background-color: rgba(0, 0, 1, 0.3);
+  left: 201px;
+  top: -251px;
+}
+
+.btn-outline {
+  border: 2px solid black;
+}
+
+.is-border-bottom-brand {
+}
+
+div.card-content button.button {
+  border-color: black;
+  font-weight: bold;
+}
+
+@keyframes colorchangebtn {
+  from {
+    border-color: black;
+    background-color: transparent;
+  }
+  to {
+    border-color: #3579fd;
+    background-color: #3579fd;
+  }
+}
+@keyframes colorchange {
+  from {
+    border-color: #3579fd;
+    background-color: #3579fd;
+  }
+  to {
+    border-color: black;
+    background-color: transparent;
+  }
+}
+div.card-content button.button:hover {
+  font-weight: bold;
+  color: white;
+  animation: colorchangebtn 0.5s;
+  animation-fill-mode: forwards;
+}
+div.card-content button.button:not(hover) {
+  font-weight: bold;
+  color: black;
+  animation: colorchange 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.has-circle {
+  border-radius: 100%;
+  overflow: hidden;
+  height: 210px;
+  width: 210px;
+}
+.has-circle img {
+  width: 120px;
+  margin-left: 45px;
+  margin-top: 40px;
+}
+
+.ml-9{
+  margin-left: 9rem !important;
+}
+.mb-9{
+  margin-bottom: 9rem !important;
+}
+div.icons a{
+  color:#2b2e34;
+}
+div.icons a i:hover{
+  color:#3579fd;
+}
+
+div.control button.bgcolor-brand:hover{
+  color:white;
+}
+
+footer svg{
+  display: flex;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  margin-bottom: 0px;
+  bottom: -42px;
+}
+
+footer .icons{
+  position:relative;
+  z-index: 2;
+  top: 125px;
+}
+
+footer .icons a{
+  font-size: 1.4rem;
+}
+
+
