@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bulma/css/bulma.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/bulma/css/bulma.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="css/bulma/css/bulma.css" type="text/css" /> -->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link
       rel="stylesheet"
@@ -38,13 +38,13 @@
             </a>
           </div>
 
-          <div class="navbar-end mr-4">
-            <div id="navbarBasicExample" class="navbar-menu">
-              <div class="navbar-start pr- 2 nav-white-shadow">
+          <div class="navbar-end mr-4-desktop">
+            <div id="navbarBasicExample" class="navbar-menu bgcolor-brand">
+              <div class="navbar-start pr-2 nav-white-shadow">
                 <a class="navbar-item mx-3" href="#about"> About </a>
                 <a class="navbar-item mx-3" href="#projects"> Projects </a>
-                <a class="navbar-item mx-3" href="#achivements">
-                  Achivements
+                <a class="navbar-item mx-3" href="#Education">
+                  Education
                 </a>
                 <a class="navbar-item mx-3" href="#contact"> Contact Me </a>
               </div>
@@ -61,16 +61,17 @@
             class="column is-half ml-6 hero-text-margin-y"
             data-aos="fade-up"
             data-aos-duration="2000"
+            style="margin-top: 10rem;"
           >
             <h1
               class="title has-text-left textcolor-brand is-size-5 mb-0 is-nunito"
             >
-              Undergraduate at UCSC
+              Undergraduate <br class="is-hidden-desktop">at UCSC
             </h1>
             <h1
               class="hero-header title has-text-left is-size-1 has-text-darker"
             >
-              Hello, my name is<br />
+              Hello, <br class="is-hidden-desktop">my name is<br class="is-hidden-touch"/>
               Ravien Dalpatadu
             </h1>
             <h1 class="title has-text-left is-size-5">
@@ -101,49 +102,74 @@
           </div>
 
           <!-- hero right -->
-          <div class="column is-half mt-0">
-            <div class="circle is-clipped">
+          <div class="column is-half is-hidden-touch mt-0">
+            <span class="circle is-clipped">
+              <img class="hero-img" src="./imgs/my.png" />
+            </span>
+          </div>
+          
+
+
+
+          <div class="column is-half is-hidden-desktop mt-0">
+            <div class="circle-mobile is-clipped">
               <img class="hero-img" src="./imgs/my.png" />
             </div>
           </div>
+
         </div>
       </section>
 
       <hr />
       <!-- about section -->
-      <section class="section is-medium" id="about">
-        <div class="columns">
-          <div
-            class="column is-half"
-            data-aos="zoom-in-down"
-            data-aos-duration="2000"
-          >
+      <div class="container">
+        <section class="section is-medium" id="about">
+          
+          <div class="columns">
+            <div
+              class="column is-half is-hidden-touch"
+              data-aos="zoom-in-down"
+              data-aos-duration="2000"
+            >
             <div class="circle-about mx-auto">
               <img class="pl-6" src="./imgs/my2.png" alt="my2" />
             </div>
+            </div>
+
+            <!-- <div class="columns is-hidden-desktop"> -->
+              <div
+                class="column is-half is-hidden-desktop"
+                data-aos="zoom-in-down"
+                data-aos-duration="2000"
+              >
+              <div class="circle-about-mobile mx-auto">
+                <img class="p-1" src="./imgs/my2.png" alt="my2" />
+              </div>
+              </div>
+
+            <div
+              class="column is-half my-auto"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+            >
+              <h1 class="title">About me</h1>
+              <p class="is-nurito has-text-justified">
+                I am an undergraduate student studying Information Systems with a
+                focus on web development. I have a strong foundation in
+                programming, scripting, and styling languages such as Python, PHP,
+                C, JavaScript, HTML, CSS and have experience building dynamic
+                websites using frameworks such as React. I have worked on
+                developing and maintaining web applications for various personal
+                projects, and have gained valuable skills in problem solving and
+                project management. I am excited to continue learning and growing
+                as a web developer, and am eager to apply my skills in a
+                professional setting.
+              </p>
+            </div>
           </div>
-          <div
-            class="column is-half my-auto"
-            data-aos="fade-right"
-            data-aos-duration="1500"
-            data-aos-delay="500"
-          >
-            <h1 class="title">About me</h1>
-            <p class="is-nurito mr-6 has-text-justified">
-              I am an undergraduate student studying Information Systems with a
-              focus on web development. I have a strong foundation in
-              programming, scripting, and styling languages such as Python, PHP,
-              C, JavaScript, HTML, CSS and have experience building dynamic
-              websites using frameworks such as React. I have worked on
-              developing and maintaining web applications for various personal
-              projects, and have gained valuable skills in problem solving and
-              project management. I am excited to continue learning and growing
-              as a web developer, and am eager to apply my skills in a
-              professional setting.
-            </p>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       <hr />
       <!-- projects section -->
@@ -217,7 +243,7 @@
                   <div class="media-left"></div>
                   <div class="media-content">
                     <p class="title is-3 is-playfair-display has-text-right">
-                      Pharmacy<br />Management system
+                      Pharmacy <br class="is-hidden-touch"/>Management system
                     </p>
                     <!-- <p class="subtitle is-6">
                     <a class="tag is-delete is-rounded"></a>johnsmith
@@ -285,8 +311,8 @@
       </section>
 
       <hr />
-      <!-- achivements section -->
-      <section class="section is-medium" id="achivements">
+      <!-- Education section -->
+      <section class="section is-medium is-hidden-touch" id="Education">
         <div class="container">
           <h1 class="title is-size-1 mb-9" data-aos="fade-up">Education</h1>
           <div
@@ -319,10 +345,51 @@
               </div>
             </div>
             <div class="column is-9 is-align-self-center ml-9 is-nunito">
-              <h1 class="title is-size-2">Bsc. in Information Systems</h1>
+              <h1 class="title is-size-2">Primary and Secondary Education</h1>
               <p class="is-nutito mr-6">
+                Passed General Certificate of Education Exams; Ordinary Level Exam with 6 A passes and 3 B passes and Advanced Level with 1 A pass, 1 C pass and 1 S pass.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section is-hidden-desktop" id="Education">
+        <div class="container">
+          <h1 class="title is-size-1 mb-6" data-aos="fade-up">Education</h1>
+          <div
+            class="columns"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
+            <div class="column is-full">
+              <div class="image bgcolor-brand-edu has-circle">
+                <img class="" src="imgs/ucsc.png" alt="" />
+              </div>
+            </div>
+            <div class="column is-full is-align-self-center is-nunito">
+              <h1 class="title is-size-2">Bsc. in Information Systems</h1>
+              <p class="is-nutito">
                 Currently reading for my Bachelors' Degree in Information
                 Systems at University of Colombo School of Computing (UCSC).
+              </p>
+            </div>
+          </div>
+          <div
+            class="columns"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-delay="100"
+          >
+            <div class="column is-full">
+              <div class="image bgcolor-brand-edu has-circle">
+                <img class="" src="imgs/stcb.png" alt="" />
+              </div>
+            </div>
+            <div class="column is-full is-align-self-center is-nunito">
+              <h1 class="title is-size-2">Primary and Secondary Education</h1>
+              <p class="is-nutito">
+                Passed General Certificate of Education Exams; Ordinary Level Exam with 6 A passes and 3 B passes and Advanced Level with 1 A pass, 1 C pass and 1 S pass.
               </p>
             </div>
           </div>
@@ -396,7 +463,7 @@
       </section>
 
       <footer>
-        <div class="icons has-text-centered mt-6">
+        <div class="icons has-text-centered mt-6-desktop mb-6">
           <a href="https://www.instagram.com/ravien_dalpatadu/">
             <span class="icon mx-5">
               <i
@@ -418,9 +485,10 @@
             Ravien Dalpatadu 2023
           </p>
         </div>
-        <svg
-          width="1440"
-          height="370"
+        <svg 
+          class="is-clipped"
+          width="auto"
+          height="auto"
           viewBox="0 0 1440 344"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -438,6 +506,7 @@
   </body>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./script.js"></script>
   <script>
     AOS.init();
   </script>

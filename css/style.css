@@ -25,12 +25,34 @@
   top: -193.59px;
 }
 
+.circle-mobile {
+  background-color: #3579fd;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-radius: 100%;
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  right: -210px;
+  top: -80px;
+  z-index: -5;
+}
+
 .circle-about {
   background-color: #3579fd;
   overflow: hidden;
   border-radius: 100%;
   width: 450px;
   height: 450px;
+}
+
+.circle-about-mobile {
+  background-color: #3579fd;
+  overflow: hidden;
+  border-radius: 100%;
+  width: 35 0px;
+  height: 350px;
 }
 
 nav {
@@ -76,7 +98,7 @@ nav {
 
 .hero-text-margin-y {
   margin-top: 9rem;
-  margin-bottom: 9rem;
+  margin-bottom: 1rem;
 }
 
 .hero-img {
@@ -102,8 +124,8 @@ nav {
   border: 2px solid black;
 }
 
-.is-border-bottom-brand {
-}
+  /* .is-border-bottom-brand {
+  } */
 
 div.card-content button.button {
   border-color: black;
