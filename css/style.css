@@ -153,13 +153,13 @@ div.card-content button.button {
     background-color: transparent;
   }
 }
-div.card-content button.button:hover {
+div.card-content a.button:hover {
   font-weight: bold;
   color: white;
   animation: colorchangebtn 0.5s;
   animation-fill-mode: forwards;
 }
-div.card-content button.button:not(hover) {
+div.card-content a.button:not(hover) {
   font-weight: bold;
   color: black;
   animation: colorchange 0.5s;
