@@ -32,7 +32,6 @@ body{
   overflow: hidden;
   overflow-x: hidden;
   overflow-y: hidden;
-
   position: absolute;
   width: 420px;
   height: 420px;
@@ -53,7 +52,7 @@ body{
   background-color: #3579fd;
   overflow: hidden;
   border-radius: 100%;
-  width: 35 0px;
+  width: 350px;
   height: 350px;
 }
 
