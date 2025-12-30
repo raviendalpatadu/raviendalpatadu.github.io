@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  background-color: #0f172a; /* Slate 900 base */
+  color: #f8fafc; /* Slate 50 text */
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* Offset for fixed navbar */
+}
