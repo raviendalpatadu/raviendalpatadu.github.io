@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - new_ui_25
 
 permissions:
   contents: read
