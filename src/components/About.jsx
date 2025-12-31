@@ -382,7 +382,7 @@ const About = () => {
                   >
                     <div className="p-1 bg-white rounded-full shrink-0">
                       <ImageWithSkeleton
-                        src="https://upload.wikimedia.org/wikipedia/en/thumb/5/52/World_Archery_Federation_logo.svg/150px-World_Archery_Federation_logo.svg.png"
+                        src="/imgs/worldarchery_logo.svg"
                         alt="World Archery Logo"
                         className="w-5 h-5"
                         imgClassName="object-contain"
