@@ -11,7 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
-v1_backup/*
+v1_backup
+Ravien_CV-2025.pdf
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
