@@ -380,6 +380,14 @@ const About = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-cyan-400 font-medium hover:text-cyan-300 transition-colors group text-sm uppercase tracking-wide border-b border-cyan-500/20 hover:border-cyan-400 pb-0.5"
                   >
+                    <div className="p-1 bg-white rounded-full shrink-0">
+                      <ImageWithSkeleton
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/5/52/World_Archery_Federation_logo.svg/150px-World_Archery_Federation_logo.svg.png"
+                        alt="World Archery Logo"
+                        className="w-5 h-5"
+                        imgClassName="object-contain"
+                      />
+                    </div>
                     View Athlete Profile{" "}
                     <ExternalLink
                       size={16}
