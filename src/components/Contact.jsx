@@ -22,18 +22,11 @@ const Contact = () => {
 
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
                     <a 
-                        href="mailto:ravien.dalpatadu@gmail.com" 
+                        href="mailto:dalpataduravien@gmail.com" 
                         className="flex items-center gap-3 px-8 py-4 bg-cyan-600 hover:bg-cyan-500 text-white rounded-full font-medium transition-all duration-300 shadow-lg shadow-cyan-900/20 hover:shadow-cyan-500/40 hover:-translate-y-1"
                     >
                         <Mail size={20} />
-                        ravien.dalpatadu@gmail.com
-                    </a>
-                    <a 
-                        href="tel:+94701949400" 
-                        className="flex items-center gap-3 px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-full font-medium transition-all duration-300 border border-slate-700 hover:border-cyan-500/50 hover:-translate-y-1"
-                    >
-                        <span>📞</span>
-                        +94 70 194 9400
+                        dalpataduravien@gmail.com
                     </a>
                 </div>
 
