@@ -1,16 +1,64 @@
-# React + Vite
+# Ravien Dalpatadu - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS. This project showcases my skills, experience, and projects with a focus on performance and user experience.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern Tech Stack**: Built with React 19 and Vite for blazing fast performance.
+- **Responsive Design**: Fully responsive layout optimized for mobile, tablet, and desktop devices.
+- **Animations**: Smooth transitions and interactive elements using `framer-motion`.
+- **Performance Optimized**:
+  - Custom **Loading Spinner** with brand integration.
+  - **Skeleton Screens** for content and images to enhance perceived performance during data fetching.
+- **Modern Styling**: Utilizes `tailwindcss` v4 for a utility-first styling approach.
+- **Icons**: Integrated `lucide-react` and `react-icons` for a consistent visual language.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Core**: [React 19](https://react.dev/), [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/), [React Icons](https://react-icons.github.io/react-icons/)
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project is structured around functional components located in `src/components`:
+
+- **Hero**: Introduction section with dynamic mobile layout refinements.
+- **About**: Detailed professional background.
+- **Projects**: Showcase of key work and contributions.
+- **Contact**: Contact information and form.
+- **Navbar**: Responsive navigation bar.
+- **UI Utilities**:
+  - `LoadingSpinner.jsx`: Custom global loading state.
+  - `Skeleton.jsx` & `ImageWithSkeleton.jsx`: Loading placeholders for improved UX.
+
+## 🏃‍♂️ Getting Started
+
+1.  **Clone the repository**
+
+    ```bash
+    git clone https://github.com/raviendalpatadu/raviendalpatadu.github.io.git
+    cd raviendalpatadu.github.io
+    ```
+
+2.  **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for production**
+    ```bash
+    npm run build
+    ```
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
